@@ -1,23 +1,25 @@
 import { useState, useEffect } from "react"; 
 import { motion } from "framer-motion";
+import { image } from "framer-motion/client";
 
 const featuredBanners = [
   {
-    title: "Summer Sale 🏖️",
-    subtitle: "Up to 50% off selected items!",
-    buttonText: "Shop Summer Deals",
+    title: "SUPER OFFER SALES",
+    subtitle: "70% off on all Products sale",
+    buttonText: "Seize the Offers",
     bg: "from-yellow-400 to-pink-500"
   },
   {
-    title: "New Arrivals 🚀",
-    subtitle: "Check out the latest trends!",
+    title: "Catchy & Modern",
+    subtitle: "Shop the Best, Forget the Rest.",
     buttonText: "Explore Now",
-    bg: "from-green-400 to-blue-500"
+    bg: "from-green-400 to-blue-500",
+  
   },
   {
     title: "Limited Offers ⏰",
-    subtitle: "Don't miss out on our flash sales!",
-    buttonText: "Grab Deals",
+    subtitle: "Your Favorite Products, One Click Away.",
+    buttonText: "Catch the Savings",
     bg: "from-red-500 to-purple-600"
   }
 ];
@@ -46,7 +48,7 @@ const Hero = () => {
       <p className="text-lg md:text-xl mb-6">{banner.subtitle}</p>
       <a
         href="#products"
-        className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
+        className="bg-white text-orange-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
       >
         {banner.buttonText}
       </a>

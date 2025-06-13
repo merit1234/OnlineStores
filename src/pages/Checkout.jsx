@@ -26,24 +26,24 @@ const Checkout = () => {
       {cartItems.length === 0 ? (
         <p className="text-gray-600 dark:text-gray-200">
           You have no items to checkout.{" "}
-          <Link to="/" className="text-blue-600 dark:text-blue-400">Shop now!</Link>
+          <Link to="/" className="text-orange-600 dark:text-orange-400">Shop now!</Link>
         </p>
       ) : (
         <>
           <p className="text-lg mb-4 dark:text-gray-200">
-            Thank you for shopping with us! 🎉
+            We appreciate your purchase! 🎉
           </p>
           <p className="text-xl font-semibold mb-2 dark:text-white">
             Total Amount: ₦{total.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
           </p>
           <p className="mb-6 text-gray-600 dark:text-gray-400">
-            Payment integration coming soon!
+            Payments will be available shortly!
           </p>
           <Link
             to="/thank-you"
             className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
           >
-            Complete Purchase
+            Finalize Order
           </Link>
         </>
       )}

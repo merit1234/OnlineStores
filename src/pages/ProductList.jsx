@@ -50,7 +50,7 @@ const ProductList = ({ searchQuery = "" }) => {
             onClick={() => setCurrentPage(idx + 1)}
             className={`px-3 py-1 rounded 
               ${currentPage === idx + 1 
-                ? "bg-blue-600 text-white" 
+                ? "bg-orange-600 text-white" 
                 : "bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200"}`}
           >
             {idx + 1}

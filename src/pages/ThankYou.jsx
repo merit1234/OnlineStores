@@ -45,7 +45,7 @@ const ThankYou = () => {
       <p className="text-lg mb-2 dark:text-gray-200">Your order has been successfully placed.</p>
       <p className="text-gray-600 dark:text-gray-400 mb-6">You’ll be redirected shortly...</p>
       <p className="text-sm text-gray-400 dark:text-gray-500">
-        (If not, <a href="/" className="text-blue-600 dark:text-blue-400 underline">click here</a>.)
+        (If not, <a href="/" className="text-Orange-600 dark:text-orange-400 underline">click here</a>.)
       </p>
     </div>
   );

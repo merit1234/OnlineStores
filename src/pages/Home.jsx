@@ -56,7 +56,7 @@ const Home = ({ searchQuery }) => {
               </p>
               <Link
                 to={`/product/${product.id}`}
-                className="mt-2 inline-block bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 transition-colors"
+                className="mt-2 inline-block bg-orange-600 text-white px-4 py-1 rounded hover:bg-orange-700 transition-colors"
               >
                 View Details
               </Link>

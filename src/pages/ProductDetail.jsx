@@ -28,7 +28,7 @@ const ProductDetail = () => {
       />
 
       <h2 className="text-2xl font-bold mb-2 dark:text-white">{product.name}</h2>
-      <p className="text-blue-600 dark:text-blue-400 font-bold text-lg mb-4">
+      <p className="text-orange-600 dark:text-orange-400 font-bold text-lg mb-4">
         ₦{product.price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
       </p>
       <p className="text-gray-700 dark:text-gray-200 mb-4">
@@ -36,7 +36,7 @@ const ProductDetail = () => {
       </p>
       <button
         onClick={() => addToCart(product)}
-        className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        className="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700"
       >
         Add to Cart
       </button>

@@ -18,13 +18,13 @@ const Contact = () => {
         You can reach us via email at:  
         <a
           href="mailto:ifeanyistanley82@gmail.com"
-          className="text-blue-600 hover:underline"
+          className="text-orange-600 hover:underline"
         >
-          <strong> ifeanyistanley82@gmail.com</strong>
+          <strong> Ukwomaekemo@@gmail.com</strong>
         </a>
       </p>
       <p className="text-gray-700 dark:text-gray-200">
-        Or call us: <strong>+234-810-922-4422</strong>
+      Need help? Call: <strong>+234-802-130-1305</strong>
       </p>
     </div>
   );

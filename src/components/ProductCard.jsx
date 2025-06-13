@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
       </p>
       <Link
         to={`/product/${product.id}`}
-        className="inline-block mt-2 text-blue-600 dark:text-blue-400 hover:underline"
+        className="inline-block mt-2 text-orange-500 dark:text-orange-600 hover:underline"
       >
         View Details
       </Link>
